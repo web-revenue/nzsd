@@ -932,7 +932,7 @@ textarea.form-control-lg{min-height:calc(1.5em + 1rem + 2px)}
 .navbar-expand-lg .navbar-nav .dropdown-menu{position:absolute}
 .navbar-expand-lg .navbar-nav .nav-item{padding-right:.5rem;padding-left:.5rem;position:relative}
 .navbar-expand-lg .navbar-nav .nav-link{position:relative}
-.navbar-expand-lg .navbar-nav .nav-link.active::before,.navbar-expand-lg .navbar-nav .nav-link:hover::before{
+.navbar-expand-lg .navbar-nav .nav-item.active .nav-link::before,.navbar-expand-lg .navbar-nav .nav-link:hover::before{
     content: ''; /* Выводим пустое содержимое */
     position: absolute; /* Абсолютное позиционирование */
     background: #fff; /* Цвет линии */
