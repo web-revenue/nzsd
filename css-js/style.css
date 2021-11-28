@@ -20,7 +20,7 @@ mark,.mark{padding:.2em;background-color:#fcf8e3}
 sub,sup{position:relative;font-size:.75em;line-height:0;vertical-align:baseline}
 sub{bottom:-.25em}
 sup{top:-.5em}
-a:hover{color:#0a58ca}
+a:hover{color:#7030a2}
 a:not([href]):not([class]),a:not([href]):not([class]):hover{color:inherit;text-decoration:none}
 figure{margin:0 0 1rem}
 table{caption-side:bottom;border-collapse:collapse}
@@ -779,7 +779,7 @@ textarea.form-control-lg{min-height:calc(1.5em + 1rem + 2px)}
 .btn-group-vertical > .btn:not(:first-child),.btn-group-vertical > .btn-group:not(:first-child){margin-top:-1px}
 .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle),.btn-group-vertical > .btn-group:not(:last-child) > .btn{border-bottom-right-radius:0;border-bottom-left-radius:0}
 .btn-group-vertical > .btn ~ .btn,.btn-group-vertical > .btn-group:not(:first-child) > .btn{border-top-left-radius:0;border-top-right-radius:0}
-.nav-link:hover,.nav-link:focus{color:#0a58ca}
+.nav-link:hover,.nav-link:focus{color:#7030a2}
 .nav-tabs .nav-link.disabled{color:#6c757d;border:none;background-color:transparent;border-color:transparent}
 .nav-tabs .nav-link.active,.nav-tabs .nav-item.show .nav-link{color:#7030a2;border:none;background-color:#fff;border-color:#dee2e6 #dee2e6 #fff}
 .nav-tabs .dropdown-menu{margin-top:-1px;border-top-left-radius:0;border-top-right-radius:0}
