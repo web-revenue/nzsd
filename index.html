@@ -174,22 +174,25 @@
 </section>
 <section>
 <div class="container-xxl">
-    <h2 class="text-uppercase text-center">Корпоративная информация</h2>
+    <h2 class="text-uppercase text-center">ИНФОРМАЦИЯ ВЛАДЕЛЬЦАМ ЦЕННЫХ БУМАГ</h2>
 	<div class="row">
         <div class="col-sm-4 mt-2">
             <div class="bg-korp-info">
+            <p class="h5 color-default">ИНФОРМАЦИОННЫЙ БЛОК 1</p>
 			<p class="text-secondary">26.10.2021</p>
 			<p class="основной-абзац ParaOverride-1"><span class="CharOverride-2">О введении в&#160;действие Правил ведения реестра владельцев инвестиционных паевых инвестиционных фондов АО «НСД» <i class="read-more"></i></span></p>
             </div>
         </div>
         <div class="col-sm-4 mt-2">
             <div class="bg-korp-info">
+               <p class="h5 color-default">ИНФОРМАЦИОННЫЙ БЛОК 2</p>
                 <p class="text-secondary">26.10.2021</p>
                 <p class="основной-абзац ParaOverride-1"><span class="CharOverride-2">О корпоративном действии «Внеочередное общее собрание» с&#160;ценными бумагами эмитента<br />ПАО «Магнит» ИНН 2309085638 <i class="read-more"></i></span></p>
             </div>
         </div>
         <div class="col-sm-4 mt-2">
             <div class="bg-korp-info">
+               <p class="h5 color-default">ИНФОРМАЦИОННЫЙ БЛОК 3</p>
                 <p class="text-secondary">26.10.2021</p>
                 <p class="основной-абзац ParaOverride-1"><span class="CharOverride-2">О прошедшем корпоративном действии «Внеочередное общее собрание» с&#160;ценными бумагами эмитента ПАО «МОСКОВСКИЙ <i class="read-more"></i></span></p>
             </div>
@@ -198,9 +201,63 @@
 </div>		
 </section>
 
+<section>
+<div class="container-xxl">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+<style>
+.swiper{width:100%;height:100%}
+.swiper-slide{text-align:center;font-size:18px;background:#fff;display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center}
+.swiper-slide img{display:block;width:auto;height:54px;object-fit:cover}
+.swiper-button-next:after,.swiper-button-prev:after{font-size:27px;font-weight:bolder;color:#7030a2}
+.swiper-button-next{right:-5px}
+.swiper-button-prev{left:-5px}
+ </style>
+<!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="image/partner_gazprombank.png" alt="#"></div>
+        <div class="swiper-slide"><img src="image/partner_moscowstok.png" alt="#"></div>
+        <div class="swiper-slide"><img src="image/vtb.png" alt="#"></div>
+        <div class="swiper-slide"><img src="image/alfabank.png" alt="#"></div>
+        <div class="swiper-slide"><img src="image/Sber_logo.png" alt="#"></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+          },
+        },
+      });
+    </script>
+</div>		
+</section>
 <footer class="bg-dark">
 	<div class="container-xxl">
-        <div class="d-flex">
+        <div class="d-flex mb-5">
              <div class="flex-shrink-0">
                   <img class="logo-f" src="image/logo-footer.png" alt="логотип" width="100" height="39">
              </div>
@@ -258,5 +315,5 @@
       }
     };
   </script>
-	</body>
+</body>
 </html>
