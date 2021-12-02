@@ -67,6 +67,7 @@ svg.bi.bi-search{float:right}
 #search{top:10px;border-left:2px solid #5F5F5F;color:#5F5F5F;position:relative;margin-left:37px;padding-left:23px;width:50px}
 }
 #header .big{font-size:120%}
+.color-default{color:#7030a2}
 .form-control{display:block;width:100%;padding:.375rem .75rem;font-size:1rem;font-weight:400;line-height:1.5;color:#212529;background-color:#fff;background-clip:padding-box;border:1px solid #ced4da;-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius:.25rem}
 .form-control::-webkit-date-and-time-value{height:1.5em}
 .form-control::-moz-placeholder{color:#6c757d;opacity:1}
@@ -160,7 +161,7 @@ div#servicesone .col-md-4 img.img-fluid,div#servicestwo .col-md-4 img.img-fluid{
 div#collapseSearch{top:91px}
 #myTab .nav-link span{font-size:1.5rem}
 }
-footer.bg-dark{padding:45px 0;color:#fff}
+footer.bg-dark{padding:55px 0;color:#fff;margin-top:45px}
 footer.bg-dark a{color:#fff}
 footer .nav-link{padding:.2rem 0}
 @media (max-width: 369px) {
