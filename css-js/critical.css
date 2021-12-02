@@ -160,7 +160,7 @@ div#servicesone .col-md-4 img.img-fluid,div#servicestwo .col-md-4 img.img-fluid{
 #myTab .nav-link.active span::before{content:'';position:absolute;background:#7030a2;left:0;bottom:-9px;width:100%;height:2px}
 @media (min-width: 992px) {
 div#collapseSearch{top:91px}
-#myTab .nav-link span{font-size:1.5rem}
+#myTab .nav-link span{font-size:1.4rem}
 }
 footer.bg-dark{padding:55px 0;color:#fff;margin-top:45px}
 footer.bg-dark a{color:#fff}
